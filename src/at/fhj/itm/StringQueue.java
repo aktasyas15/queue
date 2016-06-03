@@ -18,6 +18,7 @@ public class StringQueue implements Queue {
 
 	/**
 	 * @param queue
+	 * queue= a new Vector 
 	 */
 	public StringQueue() {
 		this.queue = new Vector<String>();
@@ -27,6 +28,7 @@ public class StringQueue implements Queue {
 	 * @return if addition is succussfull --> true else false
 	 *  Adds the element obj to the queue.
 	 *  @param obj
+	 *  
 	 */
 	public boolean offer(String obj) {
 		this.queue.addElement(obj);

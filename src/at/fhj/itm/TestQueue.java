@@ -9,6 +9,8 @@ public class TestQueue {
 	/**
 	 * 
 	 * @param args
+	 * queue = a new Object fron the class "Stringqueue"
+	 * 
 	 */
 	public static void main(String[] args) {
 		/**
@@ -17,7 +19,7 @@ public class TestQueue {
 		StringQueue queue = new StringQueue();
 	
 		/**
-		 * poll methode aufruf
+		 * poll method will be called there 
 		 */
 	String q1=	queue.poll();
 	System.out.println("Sollte Null sein --->" +q1);
@@ -28,6 +30,9 @@ public class TestQueue {
 		System.out.println("Im catch gefangen sonst NoSuchElementException-Meldung");
 		
 	}
+	/**
+	 * new values 
+	 */
 	//werte einspeichern in methode offer
 	queue.offer("akram");
 	queue.offer("yasin");
